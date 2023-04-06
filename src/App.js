@@ -8,11 +8,14 @@ import Press from './pages/Press';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import NoPage from './pages/NoPage';
+import TopBar from "./components/TopBar";
 
 
 function App() {
   return (
     <BrowserRouter>
+    <TopBar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
