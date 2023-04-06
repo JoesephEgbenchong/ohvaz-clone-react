@@ -3,7 +3,7 @@
 function App() {
   return (
     <>
-      <h1  className="text-2xl font-semibold text-center mt-6">Let's get the Ohvaz website started</h1>
+      <h1  className="text-xl text-center mt-6 font-Poppins text-textBlack font-semibold">Let's get the Ohvaz website started</h1>
     </>
   );
 }
