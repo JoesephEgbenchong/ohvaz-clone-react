@@ -11,6 +11,8 @@ module.exports = {
       },
       colors: {
         'primary': '#ff3c00',
+        'primary-dark-1': '#d93300',
+        'primary-dark-2' : '#c22d00',
         'default-background': '#fcf8f7',
         'textBlack': '#222222',
         'sectionSeparate' : '#f5e0db'

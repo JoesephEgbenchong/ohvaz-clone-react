@@ -9,12 +9,14 @@ import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import NoPage from './pages/NoPage';
 import TopBar from "./components/TopBar";
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <BrowserRouter>
     <TopBar />
+    <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />

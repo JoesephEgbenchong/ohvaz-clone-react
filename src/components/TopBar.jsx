@@ -8,8 +8,8 @@ export default function TopBar() {
   return (
     <>
     {/* <!--Top bar for medium and large devices --> */}
-    <div className='w-full bg-black top-0 z-50 p-2 hidden md:block'>
-        <div className='max-w-6xl flex justify-between mx-auto pr-4'>
+    <div className='bg-black top-0 z-50 p-2 hidden md:block'>
+        <div className='max-w-6xl flex justify-between mx-auto px-3'>
             <div className='w-[52%] flex justify-start items-start space-x-1'>
                 <Link className='w-full flex items-center space-x-2 ' 
                     to="https://api.whatsapp.com/send?phone=+40764378979&text=I want to place an order:&_ga=2.54150176.902906433.1680692008-950980016.1680692008"
