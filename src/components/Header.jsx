@@ -102,7 +102,7 @@ export default function Header() {
             
             <div>
                 <img src="https://www.ohvaz.ro/wp-content/uploads/2021/08/ohvaz-logo.svg" alt="ohvaz-logo"
-                className='cursor-pointer h-[45px] w-[150px]' onClick={() => navigate("/")}/>
+                className='cursor-pointer h-[45px]' onClick={() => navigate("/")}/>
             </div>
 
             <div className='hidden md:block'>
