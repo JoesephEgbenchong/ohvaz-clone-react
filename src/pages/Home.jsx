@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import productsData from '../productsData';
 import ProductItem from '../components/ProductItem';
+import VerticalSeparator from '../components/VerticalSeparator';
 
 export default function Home() {
 
@@ -26,31 +27,30 @@ export default function Home() {
           text-sm hover:text-primary transition duration-150 
           ease-in-out cursor-pointer'>Special</li>
 
-          <div className="border-r-2 h-[16px] border-sectionSeparate"></div>
+          <VerticalSeparator />
 
           <li className='text-textBlack uppercase font-Poppins font-bold 
           text-sm hover:text-primary transition duration-150 
           ease-in-out cursor-pointer'>Chia</li>
 
-          <div className="border-r-2 h-[16px] border-sectionSeparate"></div>
+          <VerticalSeparator />
 
           <li className='text-primary uppercase font-Poppins font-bold 
           text-sm hover:text-primary transition duration-150 
           ease-in-out cursor-pointer relative'>Oats
           <span className="absolute top-[34px] left-0 h-[3px] w-full bg-primary"></span></li>
 
-          <div className="border-r-2 h-[16px] border-sectionSeparate"></div>
+          <VerticalSeparator />
 
           <li className='text-textBlack uppercase font-Poppins font-bold 
           text-sm hover:text-primary transition duration-150 
           ease-in-out cursor-pointer'>Cookies</li>
 
-          <div className="border-r-2 h-[16px] border-sectionSeparate"></div>
+          <VerticalSeparator />
 
           <li className='text-textBlack uppercase font-Poppins font-bold 
           text-sm hover:text-primary transition duration-150 
           ease-in-out cursor-pointer'>Lemonade</li>
-
         </ul>
       </div>
 
