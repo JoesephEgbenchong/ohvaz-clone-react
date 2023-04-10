@@ -8,7 +8,7 @@ export default function TopBar() {
   return (
     <>
     {/* <!--Top bar for medium and large devices --> */}
-    <div className='bg-black top-0 z-50 p-2 hidden md:block'>
+    <div className=' bg-black top-0 z-50 p-2 hidden md:block'>
         <div className='max-w-6xl flex justify-between mx-auto px-3'>
             <div className='w-[52%] flex justify-start items-start space-x-1'>
                 <Link className='w-full flex items-center space-x-2 ' 

@@ -27,7 +27,7 @@ export default function Header() {
 
   return (
     <div className='bg-white border-b shadow-sm border-b-sectionSeparate'>
-        <header className='max-w-6xl mx-auto px-3 py-2 flex justify-between items-center'>
+        <header className='sticky md:static max-w-6xl mx-auto px-3 py-2 flex justify-between items-center'>
             {/* Toggle button for mobile navbar */}
             <div className='flex md:hidden'>
                     {/* Toggle button for mobile navbar */}

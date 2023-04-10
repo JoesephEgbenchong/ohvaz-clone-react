@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import productsData from '../productsData';
+import ProductItem from '../components/ProductItem';
 
 export default function Home() {
 
@@ -53,7 +54,16 @@ export default function Home() {
         </ul>
       </div>
 
-
+      <div className='mt-6'>
+        <ul className='sm:grid sm:grid-cols-2 lg:grid-cols-3'>
+          {productsData.map((product) => (
+            <ProductItem 
+            key={product.id} 
+            id={product.id} 
+            product={product} />
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }
