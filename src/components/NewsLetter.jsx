@@ -10,11 +10,15 @@ export default function NewsLetter() {
         setFormData(values => ({...values, [name] : value}));
     }
 
+    const handleSubmit = (event) => {
+        event.preventDefault();
+    }
+
   return (
     <>
         <div className='mb-6 w-full md:w-[75%] items-center justify-center mx-auto 
-        bg-white p-3 rounded-full border border-sectionSeparate'>
-            <form className='w-full flex space-x-2'>
+        bg-white p-3 rounded-full border-2 border-sectionSeparate'>
+            <form className='w-full flex space-x-2' onSubmit={handleSubmit}>
                 <div className='w-[70%] flex flex-col items-center'>
                     <p className='text-textBlack font-Poppins font-semibold uppercase text-base'>
                         Find out Our Story
