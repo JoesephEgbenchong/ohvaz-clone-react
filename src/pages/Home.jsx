@@ -5,6 +5,7 @@ import ProductItem from '../components/ProductItem';
 import VerticalSeparator from '../components/VerticalSeparator';
 import faqData from '../faqData';
 import Accordion from '../components/Accordion';
+import NewsLetter from '../components/NewsLetter';
 
 export default function Home() {
 
@@ -88,6 +89,8 @@ export default function Home() {
           ))}
         </div>
       </div>
+
+      <NewsLetter />
     </div>
   )
 }
