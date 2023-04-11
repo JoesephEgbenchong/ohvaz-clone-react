@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom'
 import productsData from '../productsData';
 import ProductItem from '../components/ProductItem';
 import VerticalSeparator from '../components/VerticalSeparator';
+import faqData from '../faqData';
+import Accordion from '../components/Accordion';
 
 export default function Home() {
 
@@ -54,7 +56,7 @@ export default function Home() {
         </ul>
       </div>
 
-      <div className='mt-6'>
+      <div className='mt-6 mb-6'>
         <ul className='sm:grid sm:grid-cols-2 lg:grid-cols-3'>
           {productsData.map((product) => (
             <ProductItem 
@@ -63,6 +65,28 @@ export default function Home() {
             product={product} />
           ))}
         </ul>
+      </div>
+
+      <div className='mb-6'>
+        <h2 className='text-center font-Poppins text-textBlack font-bold text-2xl'>
+          Frequently Asked Questions
+        </h2>
+        <div className='mt-6 mb-6 grid grid-cols-2'>
+          {faqData.map((faq) =>(
+            <div 
+              key={faq.id} 
+              className='w-full'>
+              <div 
+                className='bg-white p-5 mt-3 rounded-md border border-sectionSeparate shadow-md m-[10px] hover:shadow-lg'>
+                <Accordion 
+                  key={faq.id} 
+                  faq={faq}
+                  id={faq.id} 
+                />
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   )
