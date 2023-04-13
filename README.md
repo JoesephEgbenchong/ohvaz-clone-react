@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+# About the Project
+
+This is a frontend integration of the romanian e-commerce website "ohvaz.ro" which was redesigned in figma for better visual UI and UX.
+
+# Getting Started with Ohvaz-react-app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
