@@ -33,7 +33,7 @@ export default function Home() {
 
     <>
     {/** Start: Product Navigation for mobile screens */}
-      <div className={`d-md-none d-block md:hidden`}>
+      <div className={`fixed w-full z-40 d-md-none d-block md:hidden`}>
           <ul className={`w-full items-center flex bg-white px-[21px] py-[15px] border border-sectionSeparate justify-between`}>
             <li className='text-textBlack uppercase font-Poppins font-bold 
             text-sm hover:text-primary transition duration-150 
@@ -69,7 +69,7 @@ export default function Home() {
 
 
       <div className='max-w-6xl mx-auto px-3'>
-        <h1 className='text-[26px] mt-2 md:mt-7 text-center text-textBlack font-Berkshire 
+        <h1 className='text-[26px] mt-16 md:mt-7 text-center text-textBlack font-Berkshire 
         md:text-[40px] font-normal mb-1 md:mb-3 mx-[20px] md:mx-auto'>
           It's not a dessert, it's the perfect breakfast!</h1>
         <p className='text-center font-Poppins md:font-semibold mx-[14px] md:mx-24 text-[13px] md:text-base'>
