@@ -11,8 +11,8 @@ export default function Accordion({faq, id}) {
     {/*Question to FAQ */}
       <div className='flex justify-between items-center cursor-pointer' 
       onClick={()=>setShow((prevState) => (!prevState))}>
-        <h1 className='text-textBlack font-Poppins text-base font-semibold'>{faq.question}</h1>
-        <BiChevronDown className={`text-2xl text-textBlack 
+        <h1 className='text-textBlack font-Poppins text-sm md:text-base font-semibold'>{faq.question}</h1>
+        <BiChevronDown className={`text-xl md:text-2xl text-textBlack 
         transition-all duration-500 ${show ? "rotate-180" : " "}`} />
       </div>
 

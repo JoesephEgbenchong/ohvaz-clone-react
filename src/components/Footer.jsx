@@ -5,7 +5,7 @@ export default function Footer() {
     <>
         <footer className='w-full bg-white border-t-2 border-t-sectionSeparate'>
             <div className='max-w-6xl mx-auto px-3 mt-6'>
-                <div className='w-full flex space-x-2'>
+                <div className='w-full flex flex-col md:flex-row space-x-2'>
                     <div className='w-full' id='firstRow'>
                         <div className='mb-6 text-center' id='firstTitle'>
                             <h1 className='font-semibold font-Poppins text-base uppercase'>
@@ -90,11 +90,12 @@ export default function Footer() {
 
             <div className='w-full bg-white border-t-2 border-t-sectionSeparate'>
                  <div className='max-w-6xl mx-auto px-3'>
-                    <div className='w-full mt-3 flex justify-between mb-3'>
+                    <div className='w-full mt-3 flex flex-col md:flex-row 
+                    items-center justify-center md:justify-between space-y-2 md:space-y-0 mb-3'>
                         <p className='font-Poppins text-xs text-textBlack font-semibold'>
                             Designed and Integrated by <span className='text-primary'>Joseph Ayuk E. II </span>
                         </p>
-                        <p className='font-Poppins text-xs text-textBlack font-semibold'>
+                        <p className='font-Poppins text-xs text-textBlack font-semibold mb-2 md:mb-0'>
                             All rights reserved © Ohvăz 2023
                         </p>
                     </div>

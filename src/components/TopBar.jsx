@@ -78,10 +78,10 @@ export default function TopBar() {
                 </Link>
             </div>
 
-            <div className='justify-end mr-2'>
+            <div className='justify-end'>
                 <Link className=''>
                     <p className='text-white font-Poppins font-normal text-xs'>
-                        Livrare gratuita pentru comenzi de 200+ lei
+                        Livrare gratuita comenzi de 200+ lei
                     </p>
                 </Link>
             </div>
